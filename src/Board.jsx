@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import { v4 as uuid } from "uuid";
 import "./Board.css";
+import Download from "./Download";
 
 const Board = () => {
 	const [data, setData] = useState([
@@ -173,6 +174,7 @@ const Board = () => {
 									/>
 									Add a standard
 								</button>
+								<Download data={data}></Download>
 							</div>
 						);
 					}}

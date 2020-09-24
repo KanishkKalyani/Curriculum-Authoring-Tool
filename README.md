@@ -1,5 +1,7 @@
 # Curriculum Authoring Tool
 
+## Hosted Link: https://goofy-thompson-2f6b20.netlify.app/
+
 ## Task:
 
 Create a tool for teachers to author curriculum for a subject. Please watch
